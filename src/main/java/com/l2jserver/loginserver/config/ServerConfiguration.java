@@ -35,6 +35,7 @@ import org.aeonbits.owner.Config.Sources;
  * @version 2.6.1.1
  */
 @Sources({
+	"system:env",
 	"file:${L2J_HOME}/custom/login/config/server.properties",
 	"file:./config/server.properties",
 	"classpath:config/server.properties"
