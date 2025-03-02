@@ -35,6 +35,7 @@ import org.aeonbits.owner.Config.Sources;
  * @version 2.6.1.1
  */
 @Sources({
+	"system:env",
 	"file:${L2J_HOME}/custom/login/config/telnet.properties",
 	"file:./config/telnet.properties",
 	"classpath:config/telnet.properties"

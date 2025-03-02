@@ -33,6 +33,7 @@ import org.aeonbits.owner.Config.Sources;
  * @version 2.6.1.5
  */
 @Sources({
+	"system:env",
 	"file:${L2J_HOME}/custom/login/config/database.properties",
 	"file:./config/database.properties",
 	"classpath:config/database.properties"

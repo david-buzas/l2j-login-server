@@ -33,6 +33,7 @@ import org.aeonbits.owner.Config.Sources;
  * @version 2.6.1.1
  */
 @Sources({
+	"system:env",
 	"file:${L2J_HOME}/custom/login/config/mmo.properties",
 	"file:./config/mmo.properties",
 	"classpath:config/mmo.properties"
